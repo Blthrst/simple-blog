@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/listStyle.css"/>
+    </head>
+    <body>
+        <% if (articles) { %>
+            <% articles.forEach(function(elem){ %>
+                <%- include('articleInList', {title: elem.link}); %>
+              <% }); %>
+        <% } else { %>
+            <h1>No articles</h1>
+            <% } %>
+    </body>
+</html>

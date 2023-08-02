@@ -1,0 +1,26 @@
+.listOfComments {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.comment {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    background-color: rgb(135, 135, 135);
+    padding-right: 5px;
+}
+
+#authorCom {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#textCom {
+    margin-left: 5px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

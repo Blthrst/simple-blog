@@ -1,0 +1,65 @@
+.body {
+    background-color:darkgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    position: static;
+    margin: auto;
+    margin-top: 30;
+    text-align: center;
+}
+
+.form {
+    margin-top: 80;
+    font-size: 20;
+    font-weight: 600;
+}
+
+#title {
+    width: 500;
+    height: 34;
+    border-radius: 5px;
+    margin-bottom: 20;
+    max-width: 500;
+    background-color:gainsboro;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+
+
+#title:focus {
+    background-color: aliceblue;
+}
+
+#body:focus {
+    background-color: aliceblue;
+}
+
+#body {
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    margin-bottom: 20;
+    max-width: 500;
+    overflow:visible;
+    background-color:gainsboro;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    overflow: visible;
+    outline: none;
+    resize: none;
+}
+
+#submit {
+    border-radius: 5px;
+    width: 80;
+    height: 30;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(186, 186, 186);
+}
+
+#submit:hover {
+    background-color: rgb(221, 221, 221);
+}

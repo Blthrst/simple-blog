@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/commentStyle.css">
+</head>
+
+<body>
+    <div class="listOfComments">
+        <% comments.forEach(function(comment) { %>
+            <div class="comment">
+                <p id="authorCom">
+                    <%= comment.author%>
+                </p>
+                <p id="textCom">
+                    <%= comment.text%>
+                </p>
+            </div>
+            <% }) %>
+    </div>
+</body>
+
+</html>

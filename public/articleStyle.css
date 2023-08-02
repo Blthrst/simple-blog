@@ -1,0 +1,99 @@
+body {
+    display: flexbox;
+    background-color: darkgray;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-style: italic;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+form {
+    background-color: rgb(103, 103, 103);
+    width: fit-content;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 5px
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+#author {
+    background-color: darkgray;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    resize: none;
+    width: 200px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+#author:focus {
+    border: none;
+    background-color: darkgray;
+    outline: none;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: darkgray;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    resize: none;
+    width: 600px;
+    height: 100px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+#text:focus {
+    border: none;
+    background-color: darkgray;
+    outline: none;
+}
+
+.commentForm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

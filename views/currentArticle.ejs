@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/articleStyle.css" />
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <div class="article">
+        <h1>
+            <%= title %>
+        </h1>
+        <p>
+            <%= text %>
+        </p>
+    </div>
+    <form method="post">
+        <label>Comment</label>
+        <br />
+        <div class="commentForm">
+            <textarea id="author" name="commentAuthor" placeholder="Your name"></textarea>
+            <br />
+            <textarea id="text" name="commentText" placeholder="Your comment"></textarea>
+            <br />
+            <button id="submit" type="submit">Send</button>
+        </div>
+    </form>
+    <br />
+    <% if (comments) { %>
+        <%- include ('comments', {comments}); %>
+            <% } %>
+</body>
+
+</html>

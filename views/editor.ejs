@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Article editor</title>
+    <link rel="stylesheet" href="editorStyle.css" />
+</head>
+
+<body class="body">
+    <h1>You can make your own article here!</h1>
+    <% if (err) { %>
+        <%- include ('errors', {err}); %>
+    <% } %>
+            <div class="form">
+                <form method="post">
+                    <textarea placeholder="Title of your article" id="title" name="articleTitle"></textarea>
+                    <br />
+                    <textarea placeholder="Body of your article" id="body" type="text" name="articleBody"></textarea>
+                    <br />
+                    <button id="submit" type="submit">Done</button>
+                </form>
+            </div>
+</body>
+
+</html>
