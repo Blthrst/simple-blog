@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, '/views'))
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "main.html"))
+    res.sendFile(path.join(__dirname, "public", "index.html"))
 })
 
 
